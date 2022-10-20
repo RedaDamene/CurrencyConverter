@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #efefef;
+    font-family: arial;
+}
+
+h1{
+    text-align: center;
+}
+
+.box{
+    margin: 20px 50px;
+    padding: 20px;
+    background-color: white;
+}

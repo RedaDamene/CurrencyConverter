@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Convertisseur de devise</title>
+</head>
+<body>
+    <div class="converter box">
+        <h1>Convertisseur de devise</h1>
+        <p>Vous entrez dans le calculateur le montant que vous souhaitez convertir,
+             vous indiquez la devise d'origine et la devise qui vous intéresse. 
+             Et vous obtenez instantanément le montant dans la devise souhaitée, 
+             avec le taux de change entre les 2 monnaies.
+        </p>
+        <form>
+            <label for="amount">Montant : </label>
+            <input type="text" id="amount"> <br>
+            <label for="src">De : </label>
+            <select name="source" id="src"></select> <br>
+            <label for="src">A : </label>
+            <select name="target" id="tar"></select> <br>
+            <button type="submit">Convertir</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

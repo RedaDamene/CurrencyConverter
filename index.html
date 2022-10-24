@@ -19,11 +19,20 @@
             <label for="amount">Montant : </label>
             <input type="text" id="amount"> <br>
             <label for="src">De : </label>
-            <select name="source" id="src"></select> <br>
+            <select name="source" id="src">
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
+                <option value="CHF">CHF</option>
+            </select> <br>
             <label for="src">A : </label>
-            <select name="target" id="tar"></select> <br>
-            <button type="submit">Convertir</button>
+            <select name="target" id="tar">
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
+                <option value="CHF">CHF</option>
+            </select> <br>
+            <button id="convert">Convertir</button>
         </form>
+        <div id="res"></div>
     </div>
     <script src="index.js"></script>
 </body>
